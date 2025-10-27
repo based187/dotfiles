@@ -1,0 +1,29 @@
+[Custom Commands][net.local.passmenu.desktop]
+Exec=passmenu
+Name=passmenu
+
+[Custom Commands][net.local.rofi.desktop]
+Exec=rofi -show drun
+Name=rofi -show drun
+
+[Custom Commands][net.local.script-runner.sh.desktop]
+Exec=/home/ryan/scripts/script-runner/script-runner.sh
+Name=script-runner
+
+
+[Custom Commands][net.local.fastfetch.desktop]
+Exec=fastfetch
+Name=fastfetch
+
+[net.local.passmenu.desktop][Global Shortcuts]
+_launch=Ctrl+Space
+
+[net.local.rofi.desktop][Global Shortcuts]
+_launch=Meta+Space
+
+[net.local.script-runner.sh.desktop][Global Shortcuts]
+_launch=
+
+
+[net.local.fastfetch.desktop][Global Shortcuts]
+_launch=Meta+6
