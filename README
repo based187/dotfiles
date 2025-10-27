@@ -1,0 +1,16 @@
+#### my dotfiles i dont give a damm if you use it
+
+
+#### you will need gnu stow
+to install it: 
+
+![NOTE]
+the dotfiles directory must be in your home directory or else it will not work. (aka the parent of dotfiles directory must be /home/you
+
+```shell
+git clone https://github.com/based187/dotfiles
+cd dotfiles
+stow .
+```
+![NOTE]
+if you run into problems when using stow you can also use stow . --adopt
