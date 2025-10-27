@@ -21,8 +21,19 @@ alias tail="grc tail"
 alias s="sudo"
 alias v="vim"
 alias brc='vim ~/.bashrc'
-alias vrc='vim ~/.vimrc'
+alias vrc='vim ~/.config/vim/vimrc'
 alias src='cd ~/scripts'
 export EDITOR='vim'
-alias newsboat='newsboat -r'
+## puts .java/fonts into .config/java/fonts
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot=.config/java
+# puts password store into ~/.local/share
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
+
+# xdg env varibles
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+
 PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
