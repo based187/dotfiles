@@ -1,0 +1,5 @@
+[user]
+	email = rcdmine@gmail.com\n
+	name = ryan deluca
+[safe]
+	directory = /srv/git/linux
