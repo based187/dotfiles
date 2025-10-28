@@ -1,5 +1,5 @@
 set clipboard+=unnamedplus
-set relativenumber
+set number relativenumber
 set hlsearch
 set t_Co=256
 set wildmode=longest:full,full
