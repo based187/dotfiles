@@ -1,0 +1,349 @@
+* {
+    font-family: sans-serif !important;
+}
+
+body {
+    background: #222 !important;
+    color: #eee;
+}
+
+a:visited {
+    color: #3eb2ec !important;
+}
+
+div.box {
+    padding: 1em !important;
+    border: 1px solid #3f3f3f !important;
+    border-radius: 5px !important;
+}
+
+.filter-criteria h2,
+#pkgdetails h2 {
+    border-bottom: 0 !important;
+}
+
+#pkgdetails h2 {
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+
+#archdev-navbar li a,
+a,
+a:link,
+th a:visited,
+div#cgit table.diff td div.hunk {
+    color: #3eb2ec;
+}
+
+.results {
+    font-size: 1.075em !important;
+}
+
+.results a,
+.results a:visited {
+    color: #3eb2ec !important;
+}
+
+
+.pkglist-nav a,
+.pkglist-nav a:visited,
+#pkginfo a,
+#pkginfo a:visited {
+    color: #3eb2ec !important;
+}
+
+.results td {
+    padding: 1.3em 1em 1.3em 3px !important;
+    vertical-align: middle !important;
+}
+
+.results th,
+.results tr:nth-child(2n+1),
+#article-list tr:nth-child(2n+1),
+.results tr:nth-child(2n),
+#article-list tr:nth-child(2n) {
+    background-color: transparent !important;
+}
+
+.results td:first-of-type a {
+    font-weight: 500 !important;
+}
+
+#article-list tr:hover,
+#clocks-table tr:hover,
+#dev-dashboard tr:hover,
+#dev-todo-lists tr:hover,
+#dev-todo-pkglist tr:hover,
+#pkglist-results tr:hover,
+#stats-area tr:hover {
+    background: #111 !important;
+    border-radius: 5px !important;
+}
+
+#pkglist-results,
+#pkglist-search,
+div.box,
+.package-comments,
+div#cgit table.diffstat {
+    background: #333 !important;
+}
+
+#pkglist-search {
+    border-radius: 5px 5px 0px 0px !important;
+    margin: 0 !important;
+    border-bottom: none !important;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+#pkglist-results {
+    border-radius: 0px 0px 5px 5px !important;
+    border-top: none !important;
+}
+
+#pkgdetails #detailslinks > div,
+div#cgit div.cgit-panel {
+    border-radius: 5px !important;
+    background: transparent !important;
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1) !important;*/
+    border: 1px solid #3f3f3f !important;
+}
+
+#pkgdetails #detailslinks a,
+#pkgdetails #detailslinks a:visited,
+#pkgdepslist a,
+#pkgdepslist a:visited,
+#pkgsrcslist a,
+#pkgsrcslist a:visited,
+.text-button,
+.comments a,
+.comments a:visited {
+    color: #3eb2ec !important;
+}
+
+#pkgdepslist .broken {
+    color: #e35050 !important;
+}
+
+#pkgdetails {
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+#pkgdetails #metadata h3 {
+    background: #3f3f3f !important;
+}
+
+#generic-form {
+    border-radius: 5px 5px 0px 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.package-comments {
+    padding: 1em !important;
+    border-radius: 0px 0px 5px 5px !important;
+    margin-top: 0px !important;
+}
+
+.keyword:link,
+.keyword:visited {
+    background-color: #3366aa2e !important;
+}
+
+#footer,
+div#cgit table.diff td div.head {
+    color: #eee !important;
+}
+
+#footer a:visited {
+    color: #3eb2ec;
+}
+
+input {
+    background-color: #222;
+    border: 1px solid #3f3f3f;
+    color: #eee;
+    border-radius: 3px;
+}
+
+select {
+    background-color: #222 !important;
+    border: none !important;
+    padding-top: 3.5px !important;
+    padding-bottom: 3.5px !important;
+    color: #eee !important;
+    border-radius: 5px !important;
+}
+
+#id_setlang {
+    background-color: #333 !important;
+    border: none !important;
+    padding-top: 3.5px !important;
+    padding-bottom: 3.5px !important;
+    color: #eee !important;
+    border-radius: 3px !important;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="submit"],
+input[type="reset"] {
+    padding-top: 2.5px !important;
+    padding-bottom: 2.5px !important;
+    border-radius: 5px !important;
+}
+
+input[type="reset"] {
+    padding: 2.5px !important;
+}
+
+#pkgdetails #detailslinks > div input[type="submit"] {
+    background: transparent !important;
+    border-radius: 0px !important;
+    color: #3eb2ec !important;
+}
+
+#id_comment {
+    background: #222 !important;
+    border: 1px solid #3f3f3f !important;
+    color: #fff !important;
+    border-radius: 5px
+}
+
+#pkgsearch-field {
+    background: #444 !important;
+    color: #fff !important;
+}
+
+.widget {
+    background-color: #08d !important;
+    border: 1px solid #008ce3 !important;
+    border-radius: 5px !important;
+}
+
+#intro {
+    border-radius: 5px !important;
+}
+
+#intro h2 {
+    border-bottom: 0 !important;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+
+div#cgit table.blob td.lines,
+div#cgit table.blob .kwc {
+    color: #ddd !important;
+}
+
+div#cgit table.blob .opt {
+    color: #008ce3 !important;
+}
+
+div#cgit table.blob .ipl,
+div#cgit table.blob .kwb,
+div#cgit table.blob .kwd,
+div#cgit a,
+div#cgit a:hover,
+div#cgit table.blob .num {
+    color: #008ce3 !important;
+}
+
+div#cgit div.path,
+div#cgit table.tabs td a.active {
+    background-color: #444 !important;
+    color: #ddd !important;
+}
+
+div#cgit table.tabs {
+    border-bottom: 0 !important;
+}
+
+div#cgit table.blob {
+    border-top: solid 1px #666 !important;
+}
+
+div#cgit table#header td.sub {
+    border-top: 0 !important;
+}
+
+div#cgit table#header td.main {
+    padding-top: 0.5em !important;
+}
+
+.results .flagged,
+.flagged,
+div#cgit table.stats td.sum {
+    color: #e35050 !important;
+}
+
+#pkgdepslist .broken,
+div#cgit span.age-days,
+div#cgit table.diff td div.del {
+    color: #e35050 !important;
+}
+
+div#cgit table.diff td div.add {
+    color: #24c424 !important;
+}
+
+.comments code {
+    background-color: #111 !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    font: 1.1em monospace !important;
+}
+
+.comments pre {
+    background: transparent !important;
+    border: 0px !important;
+}
+
+.comments-header h3 span.text {
+    background: #3eb2ec !important;
+    color: #111 !important;
+}
+
+h3 span.arrow {
+    border-top: 6px solid #3eb2ec !important;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="submit"] {
+    background: #111 !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+div#cgit table.list tr,
+div#cgit table.list,
+div#cgit div.content {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+div#cgit table.diffstat {
+    border: 0 !important;
+}
+
+div#cgit div.cgit-panel {
+    padding: 1em !important;
+    background: #111 !important;
+    border: 1px solid #666
+}
+
+div#cgit div.cgit-panel table {
+    border: 0 !important;
+    background: transparent !important;
+}
+
+div#cgit table.stats {
+    border: 1px solid #666 !important;
+}
+
+div#cgit table.stats th,
+div#cgit table.stats td {
+    border: 1px solid #666 !important;
+    background-color: #111 !important;
+}

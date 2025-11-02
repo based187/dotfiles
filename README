@@ -4,13 +4,15 @@
 #### you will need gnu stow
 to install it: 
 
-> ![NOTE]
+
+> [!NOTE]
 > the dotfiles directory must be in your home directory or else it will not work. (aka the parent of dotfiles directory must be /home/you
 
 ```shell
 git clone https://github.com/based187/dotfiles
 cd dotfiles
-stow .
+stow . --adopt
 ```
-> ![NOTE]
-> if you run into problems when using stow you can also use stow . --adopt
+
+#### using custom css
+use an extention like (css overide)[https://addons.mozilla.org/en-US/firefox/addon/css-override/] and copy the aur dark mode into the plugin
