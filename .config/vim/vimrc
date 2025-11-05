@@ -4,5 +4,7 @@ set hlsearch
 set t_Co=256
 set wildmode=longest:full,full
 syntax on
+:setlocal spell spelllang=en_us
 set viminfofile=.~/config/vim/viminfo
 nnoremap ,k :!Rscript -e "rmarkdown::render('%')" && librewolf "%:r.html" &<cr>
+nnoremap ,l :!pdflatex %<cr>

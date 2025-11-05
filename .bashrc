@@ -30,7 +30,9 @@ export EDITOR='vim'
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot=.config/java
 # puts password store into ~/.local/share
 export PASSWORD_STORE_DIR=~/.local/share/pass
-
+# localize 
+export LANG="en_US.UTF-8"  
+ export LC_COLLATE="C"
 # xdg env varibles
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
