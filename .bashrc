@@ -40,6 +40,8 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
 export PATH="$PATH:$HOME/scripts/ytdlp-cron/"
 
+## pass autocomplete
+source $HOME/.local/share/pass.bash-auto
 ## set bash history unlimited
 HISTSIZE= 
 HISTFILESIZE=
