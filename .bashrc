@@ -38,6 +38,11 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
+export PATH="$PATH:$HOME/scripts/ytdlp-cron/"
+
+## set bash history unlimited
+HISTSIZE= 
+HISTFILESIZE=
 
 
 PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
