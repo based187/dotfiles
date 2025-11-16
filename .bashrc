@@ -45,4 +45,6 @@ HISTSIZE=
 HISTFILESIZE=
 
 
-PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
+#PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null); [ -n "$PS1_CMD1" ] && PS1_CMD1=" ($PS1_CMD1)"'
+PS1="[\u@\h \w${PS1_CMD1}]\$ "
