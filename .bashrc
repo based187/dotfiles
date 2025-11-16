@@ -40,4 +40,6 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 
-PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
+#PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h \w ${PS1_CMD1}]\\$ '
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null); [ -n "$PS1_CMD1" ] && PS1_CMD1=" ($PS1_CMD1)"'
+PS1="[\u@\h \w${PS1_CMD1}]\$ "
